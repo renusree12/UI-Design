@@ -1,0 +1,16 @@
+ class l3_switchdemo{
+	void sdemo(String c){
+		var x= switch(c){
+			'red' || 'Red'|| 'RED' => c,
+		 	 _=>'Red is a color',
+	       				
+	
+      };
+
+
+    
+    print(x);
+  }
+}
+
+
